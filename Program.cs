@@ -9,6 +9,7 @@ public class SayaTubeVideo
 
     public SayaTubeVideo(string title)
     {
+        Debug.Assert(!string.IsNullOrEmpty(title) && title.Length <= 100, "Judul video memiliki panjang maksimal 100 karakter dan tidak berupa null.");
         this.title = title;
         Random rand = new Random();
         this.id = rand.Next(1000, 99999);
@@ -16,7 +17,19 @@ public class SayaTubeVideo
     }
     public void IncreasePlaycount(int playCount)
     {
-        this.playCount += playCount;
+        Debug.Assert(playCount > 0 && playCount <= 10000000, "Jumlah penambahan play count maksimal adalah 10.000.000 per panggilan.");
+
+        try
+        {
+            checked
+            {
+                this.playCount += playCount;
+            }
+        }
+        catch (OverflowException)
+        {
+            Console.WriteLine("Error: Play count melebihi batas maksimum integer!");
+        }
     }
     public void printVideoDetails()
     {
@@ -32,7 +45,11 @@ class Program
     static void Main()
     {
         SayaTubeVideo stVideo = new SayaTubeVideo("Tutorial Design By Contract - Nawra Nazli Kirana");
-        stVideo.IncreasePlaycount(50);
+       
+        for (int i = 0; i < 10; i++)
+        {
+            stVideo.IncreasePlaycount(10000000);
+        }
         stVideo.printVideoDetails();
     }
 }
