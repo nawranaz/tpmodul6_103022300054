@@ -1,0 +1,15 @@
+D:\Semester4\Konstruksi\tp\tpmodul6\bin\Debug\net8.0\tpmodul6.exe
+D:\Semester4\Konstruksi\tp\tpmodul6\bin\Debug\net8.0\tpmodul6.deps.json
+D:\Semester4\Konstruksi\tp\tpmodul6\bin\Debug\net8.0\tpmodul6.runtimeconfig.json
+D:\Semester4\Konstruksi\tp\tpmodul6\bin\Debug\net8.0\tpmodul6.dll
+D:\Semester4\Konstruksi\tp\tpmodul6\bin\Debug\net8.0\tpmodul6.pdb
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\tpmodul6.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\tpmodul6.AssemblyInfoInputs.cache
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\tpmodul6.AssemblyInfo.cs
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\tpmodul6.csproj.CoreCompileInputs.cache
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\tpmodul6.sourcelink.json
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\tpmodul6.dll
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\refint\tpmodul6.dll
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\tpmodul6.pdb
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\tpmodul6.genruntimeconfig.cache
+D:\Semester4\Konstruksi\tp\tpmodul6\obj\Debug\net8.0\ref\tpmodul6.dll
